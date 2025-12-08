@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/Ifram3/frontendmentor.io-projects/tree/c25ee17844db97689462eba52ccd02b77afc7da9/blog-preview-card-main)
+- Solution URL: [Solution](https://github.com/Ifram3/BLOG-PREVIEW-CARD)
 - Live Site URL: [Live Site](https://bareblog.netlify.app/)
 
 ## My process
