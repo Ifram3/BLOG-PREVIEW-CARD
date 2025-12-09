@@ -31,6 +31,9 @@
     --gray-950: #111;
     --gray-500: #6B6B6B;
     --white: #FFF;
+    --black: #000;
+
+    --body-text: 1rem;
 }
 
 * {
@@ -49,10 +52,10 @@ body {
     gap: 10px;
     min-height: 100dvh; */
     background-color: var(--yellow);
-    font-family: 'Figtree';
-    font-size: 1rem;
+    font-family: 'Figtree', sans-serif;
+    font-size: var(--body-text);
     font-weight: 400;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     line-height: 150%;
 }
 
@@ -67,11 +70,11 @@ body {
     padding: 1.5rem;
     border: 1px solid var(--gray-950);
     border-radius: 20px;
-    box-shadow: 8px 8px 0 0 #000;
+    box-shadow: 8px 8px 0 0 var(--black);
     background-color: var(--white);
 }
 
-.container img {
+img {
     max-width: 100%;
     /* max-width: 17.44rem; */
     max-height: 12.5rem;
@@ -87,7 +90,7 @@ body {
     max-height: 10.81rem;
 }
 
-#title {
+.title {
     width: 4.6rem;
     height: 1.63rem;
     padding: 0.3rem 0.8rem;
@@ -95,7 +98,7 @@ body {
     background-color: var(--yellow);
 }
 
-#title h1 {
+h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,14 +110,14 @@ body {
     font-weight: 800;
 }
 
-#date {
+.date {
     width: 7.7rem;
     height: 1.1rem;
     font-size: 0.75rem;
     font-weight: 500;
 }
 
-.content h2 {
+h2 {
     width: 17.4rem;
     height: 1.875rem;
     font-size: 1.25rem;
@@ -143,7 +146,7 @@ body {
     max-height: 2rem;
 }
 
-.author h3 {
+h3 {
     align-self: center;
     width: 5.3rem;
     height: 1.3rem;
@@ -168,7 +171,7 @@ body {
         margin: 13.7rem auto;
     }
 
-    .container img {
+    img {
         max-width: fit-content;
     }
 
@@ -177,31 +180,31 @@ body {
         max-height: 12.13rem;
     }
 
-    #title {
+    .title {
         width: 5.13rem;
         height: 1.8rem;
     }
 
-    #title h1 {
+    h1 {
         width: 3.63rem;
         height: 1.3rem;
         font-size: 0.875rem;
     }
 
-    #date {
+    .date {
         width: 8.94rem;
         height: 1.3rem;
         font-size: 0.875rem;
     }
 
-    .content h2 {
+    h2 {
         width: 21rem;
         height: 2.25rem;
         font-size: 1.5rem;
     }
 
-    .content h2:hover,
-    .content h2:focus {
+    h2:hover,
+    h2:focus {
         color: var(--yellow);
     }
 
